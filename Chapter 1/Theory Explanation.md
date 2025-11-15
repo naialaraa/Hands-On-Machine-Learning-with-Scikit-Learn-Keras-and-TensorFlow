@@ -1,11 +1,11 @@
-## 2. Theory Explanation
+## Theory Explanation
 
-### 2.1 Konsep Dasar Machine Learning
+### 1. Konsep Dasar Machine Learning
 Machine Learning mempelajari cara sistem secara otomatis mengekstraksi pola dari data untuk meningkatkan performa terhadap suatu tugas tertentu. Definisi formal menyatakan bahwa sebuah sistem “belajar” apabila performanya meningkat terhadap suatu tugas seiring bertambahnya pengalaman. Pendekatan ini efektif untuk kasus yang sulit atau tidak mungkin dirumuskan menggunakan aturan manual.
 
 ---
 
-### 2.2 Aplikasi Machine Learning
+### 2. Aplikasi Machine Learning
 ML diterapkan dalam berbagai domain, seperti:
 
 - **Computer Vision**: deteksi objek, pengenalan wajah, segmentasi citra.
@@ -17,7 +17,7 @@ ML diterapkan dalam berbagai domain, seperti:
 
 ---
 
-### 2.3 Klasifikasi Machine Learning Berdasarkan Label Data
+### 3. Klasifikasi Machine Learning Berdasarkan Label Data
 
 #### a. Supervised Learning
 Model dilatih menggunakan data berlabel untuk mempelajari pemetaan input–output. Contohnya regresi dan klasifikasi. Algoritma umum meliputi Logistic Regression, SVM, Random Forest, dan Neural Networks.
@@ -33,7 +33,7 @@ Agen belajar berdasarkan reward dan penalti dari lingkungannya untuk mempelajari
 
 ---
 
-### 2.4 Batch Learning dan Online Learning
+### 4. Batch Learning dan Online Learning
 
 #### a. Batch Learning
 Model dilatih berdasarkan keseluruhan dataset dan tidak diperbarui secara real-time. Cocok untuk data yang tidak berubah.
@@ -43,7 +43,7 @@ Model diperbarui secara bertahap dari data yang mengalir. Cocok untuk sistem ber
 
 ---
 
-### 2.5 Instance-Based vs Model-Based Learning
+### 5. Instance-Based vs Model-Based Learning
 
 #### a. Instance-Based Learning
 Model menyimpan contoh pelatihan dan membuat prediksi berdasarkan kemiripan dengan contoh tersebut. Contoh utama adalah k-Nearest Neighbors.
@@ -53,7 +53,7 @@ Model membangun representasi matematis dari pola data melalui optimisasi fungsi 
 
 ---
 
-### 2.6 Tantangan dalam Machine Learning
+### 6. Tantangan dalam Machine Learning
 
 - **Data terbatas**: menghambat kemampuan generalisasi.
 - **Data tidak representatif**: menimbulkan bias prediksi.
@@ -62,7 +62,7 @@ Model membangun representasi matematis dari pola data melalui optimisasi fungsi 
 
 ---
 
-### 2.7 Overfitting dan Underfitting
+### 7. Overfitting dan Underfitting
 
 - **Overfitting**: model terlalu kompleks sehingga mempelajari noise pada data pelatihan.  
   Solusi meliputi regularisasi, pengurangan fitur, atau peningkatan jumlah data.
@@ -72,7 +72,7 @@ Model membangun representasi matematis dari pola data melalui optimisasi fungsi 
 
 ---
 
-### 2.8 Evaluasi Model
+### 8. Evaluasi Model
 
 Evaluasi dilakukan dengan membagi data menjadi:
 - **Training set**
@@ -83,5 +83,5 @@ Teknik seperti cross-validation digunakan untuk meningkatkan reliabilitas evalua
 
 ---
 
-### 2.9 No Free Lunch Theorem
+### 9. No Free Lunch Theorem
 Teorema ini menegaskan bahwa tidak ada algoritma ML yang selalu unggul untuk semua masalah. Pemilihan algoritma harus mempertimbangkan karakteristik data dan tujuan analisis serta dievaluasi melalui eksperimen yang sistematis.
