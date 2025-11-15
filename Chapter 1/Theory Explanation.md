@@ -1,4 +1,3 @@
-
 ## 2. Theory Explanation
 
 ### 2.1 Konsep Dasar Machine Learning
