@@ -1,11 +1,11 @@
-1. Konsep Dasar Machine Learning
-
+**1. Konsep Dasar Machine Learning
+**
 Machine Learning dapat dipandang sebagai disiplin yang mempelajari bagaimana sistem secara otomatis mengekstraksi pola dari data untuk meningkatkan performa pada suatu tugas tertentu. Definisi formal yang umum digunakan, dikemukakan oleh Tom Mitchell (1997), menyatakan bahwa sebuah program dikatakan belajar apabila performanya pada suatu kelas tugas meningkat seiring bertambahnya pengalaman.
 
 Pendekatan ini relevan terutama ketika aturan eksplisit sulit dirumuskan, misalnya dalam klasifikasi citra atau pengenalan suara. ML memberikan fleksibilitas lebih besar dibandingkan pendekatan tradisional karena model dapat beradaptasi terhadap keragaman data.
 
-2. Aplikasi Machine Learning
-
+**2. Aplikasi Machine Learning
+**
 ML digunakan pada berbagai domain, antara lain:
 
 Computer vision: deteksi objek, pengenalan wajah, segmentasi citra.
@@ -22,7 +22,8 @@ Reinforcement learning: pengembangan agen permainan seperti AlphaGo.
 
 Aplikasi tersebut memanfaatkan kemampuan ML dalam mengekstraksi pola dari data kompleks yang sulit dipetakan secara manual.
 
-3. Klasifikasi Machine Learning Berdasarkan Cara Belajar
+**3. Klasifikasi Machine Learning Berdasarkan Cara Belajar
+**
 a. Supervised Learning
 
 Model mempelajari hubungan antara input dan output berdasarkan data berlabel.
@@ -55,7 +56,8 @@ d. Reinforcement Learning
 
 Model (agen) belajar melalui interaksi langsung dengan lingkungan. Agen menerima reward atau penalti berdasarkan aksi yang diambil dan bertujuan mempelajari kebijakan optimal (optimal policy).
 
-4. Pendekatan Pembelajaran Berdasarkan Frekuensi Update
+**4. Pendekatan Pembelajaran Berdasarkan Frekuensi Update
+**
 a. Batch Learning
 
 Model dilatih menggunakan seluruh dataset sekaligus dan tidak diperbarui secara berkelanjutan. Cocok untuk data yang tidak berubah secara signifikan.
@@ -64,7 +66,8 @@ b. Online Learning
 
 Model menerima data secara bertahap dan memperbarui parameter setelah setiap batch data baru. Pendekatan ini efisien untuk data berukuran besar maupun sistem real-time.
 
-5. Pendekatan Generalisasi
+**5. Pendekatan Generalisasi
+**
 a. Instance-Based Learning
 
 Model menyimpan contoh-contoh data dan membuat prediksi berdasarkan kemiripan (similarity) terhadap contoh yang pernah dilihat. Contoh utama adalah k-Nearest Neighbors.
@@ -81,7 +84,8 @@ Optimisasi parameter model.
 
 Inferensi pada data baru.
 
-6. Tantangan dalam Machine Learning
+**6. Tantangan dalam Machine Learning
+**
 a. Keterbatasan Data
 
 Model ML biasanya membutuhkan jumlah data besar untuk melakukan generalisasi.
@@ -99,8 +103,8 @@ d. Kualitas Fitur
 Fitur yang tidak informatif menurunkan performa model.
 Feature engineering menjadi langkah krusial.
 
-7. Overfitting dan Underfitting
-
+**7. Overfitting dan Underfitting
+**
 Overfitting: model terlalu menyesuaikan diri terhadap data pelatihan sehingga gagal pada data baru.
 Penyebabnya termasuk kompleksitas model yang berlebihan atau data pelatihan yang terbatas.
 
@@ -108,8 +112,8 @@ Underfitting: model terlalu sederhana sehingga tidak mampu menangkap pola pentin
 
 Solusi umum mencakup regularisasi, peningkatan jumlah data, atau pemilihan model yang lebih sesuai.
 
-8. Validasi Model dan Evaluasi Generalisasi
-
+**8. Validasi Model dan Evaluasi Generalisasi
+**
 Data biasanya dibagi menjadi:
 
 Training set
@@ -122,6 +126,6 @@ Teknik cross-validation sering digunakan untuk menghasilkan evaluasi yang lebih 
 
 Perbedaan distribusi antara data pelatihan dan data produksi disebut data mismatch, yang dapat menurunkan performa model secara drastis.
 
-9. No Free Lunch Theorem
-
+**9. No Free Lunch Theorem
+**
 Teorema ini menyatakan bahwa tidak ada algoritma ML yang selalu unggul untuk semua jenis masalah. Kinerja model selalu bergantung pada karakteristik data. Oleh karena itu, pemilihan algoritma memerlukan eksperimen, pemahaman data, dan evaluasi yang menyeluruh.
