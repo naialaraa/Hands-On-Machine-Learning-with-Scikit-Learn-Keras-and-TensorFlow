@@ -1,2 +1,2 @@
 # Hands-on Machine Learning with Scikit-Learn, Keras & TensorFlow
-![](cover.png)
+![](cover.jpg)
