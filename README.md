@@ -131,7 +131,7 @@ All code is reproduced and adapted from the original reference book to support l
 
 ---
 
-## ✨ Author
+## Author
 
 **Naia Lara Shafir Anwar**  
 1103223030 – TK-46-GAB
